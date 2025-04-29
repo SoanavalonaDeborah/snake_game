@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/deborah/Documents/Lesona/lesone_esti/L2/info_373/project/Snake-Game/main.cpp" "CMakeFiles/snake_game.dir/main.cpp.o" "gcc" "CMakeFiles/snake_game.dir/main.cpp.o.d"
-  "/home/deborah/Documents/Lesona/lesone_esti/L2/info_373/project/Snake-Game/src/food.cpp" "CMakeFiles/snake_game.dir/src/food.cpp.o" "gcc" "CMakeFiles/snake_game.dir/src/food.cpp.o.d"
-  "/home/deborah/Documents/Lesona/lesone_esti/L2/info_373/project/Snake-Game/src/game.cpp" "CMakeFiles/snake_game.dir/src/game.cpp.o" "gcc" "CMakeFiles/snake_game.dir/src/game.cpp.o.d"
-  "/home/deborah/Documents/Lesona/lesone_esti/L2/info_373/project/Snake-Game/src/snake.cpp" "CMakeFiles/snake_game.dir/src/snake.cpp.o" "gcc" "CMakeFiles/snake_game.dir/src/snake.cpp.o.d"
+  "/home/deborah/Documents/Lesona/lesona_esti/L2/info_373/project/Snake-Game/main.cpp" "CMakeFiles/snake_game.dir/main.cpp.o" "gcc" "CMakeFiles/snake_game.dir/main.cpp.o.d"
+  "/home/deborah/Documents/Lesona/lesona_esti/L2/info_373/project/Snake-Game/src/food.cpp" "CMakeFiles/snake_game.dir/src/food.cpp.o" "gcc" "CMakeFiles/snake_game.dir/src/food.cpp.o.d"
+  "/home/deborah/Documents/Lesona/lesona_esti/L2/info_373/project/Snake-Game/src/game.cpp" "CMakeFiles/snake_game.dir/src/game.cpp.o" "gcc" "CMakeFiles/snake_game.dir/src/game.cpp.o.d"
+  "/home/deborah/Documents/Lesona/lesona_esti/L2/info_373/project/Snake-Game/src/snake.cpp" "CMakeFiles/snake_game.dir/src/snake.cpp.o" "gcc" "CMakeFiles/snake_game.dir/src/snake.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

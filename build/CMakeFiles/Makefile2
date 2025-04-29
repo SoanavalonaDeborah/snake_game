@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/deborah/Documents/Lesona/lesone_esti/L2/info_373/project/Snake-Game
+CMAKE_SOURCE_DIR = /home/deborah/Documents/Lesona/lesona_esti/L2/info_373/project/Snake-Game
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/deborah/Documents/Lesona/lesone_esti/L2/info_373/project/Snake-Game/build
+CMAKE_BINARY_DIR = /home/deborah/Documents/Lesona/lesona_esti/L2/info_373/project/Snake-Game/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/snake_game.dir/clean
 CMakeFiles/snake_game.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake_game.dir/build.make CMakeFiles/snake_game.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake_game.dir/build.make CMakeFiles/snake_game.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/deborah/Documents/Lesona/lesone_esti/L2/info_373/project/Snake-Game/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target snake_game"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/deborah/Documents/Lesona/lesona_esti/L2/info_373/project/Snake-Game/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target snake_game"
 .PHONY : CMakeFiles/snake_game.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/snake_game.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/deborah/Documents/Lesona/lesone_esti/L2/info_373/project/Snake-Game/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/deborah/Documents/Lesona/lesona_esti/L2/info_373/project/Snake-Game/build/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/snake_game.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/deborah/Documents/Lesona/lesone_esti/L2/info_373/project/Snake-Game/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/deborah/Documents/Lesona/lesona_esti/L2/info_373/project/Snake-Game/build/CMakeFiles 0
 .PHONY : CMakeFiles/snake_game.dir/rule
 
 # Convenience name for target.

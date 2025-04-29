@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/deborah/Documents/Lesona/lesone_esti/L2/info_373/project/Snake-Game/include
+CXX_INCLUDES = -I/home/deborah/Documents/Lesona/lesona_esti/L2/info_373/project/Snake-Game/include
 
 CXX_FLAGS = -std=gnu++17
 

@@ -1,8 +1,8 @@
 CMakeFiles/snake_game.dir/src/snake.cpp.o: \
- /home/deborah/Documents/Lesona/lesone_esti/L2/info_373/project/Snake-Game/src/snake.cpp \
+ /home/deborah/Documents/Lesona/lesona_esti/L2/info_373/project/Snake-Game/src/snake.cpp \
  /usr/include/stdc-predef.h \
- /home/deborah/Documents/Lesona/lesone_esti/L2/info_373/project/Snake-Game/include/snake.h \
- /home/deborah/Documents/Lesona/lesone_esti/L2/info_373/project/Snake-Game/include/point.h \
+ /home/deborah/Documents/Lesona/lesona_esti/L2/info_373/project/Snake-Game/include/snake.h \
+ /home/deborah/Documents/Lesona/lesona_esti/L2/info_373/project/Snake-Game/include/point.h \
  /usr/include/c++/13/vector /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \

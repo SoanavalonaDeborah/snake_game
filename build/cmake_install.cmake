@@ -1,4 +1,4 @@
-# Install script for directory: /home/deborah/Documents/Lesona/lesone_esti/L2/info_373/project/Snake-Game
+# Install script for directory: /home/deborah/Documents/Lesona/lesona_esti/L2/info_373/project/Snake-Game
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/deborah/Documents/Lesona/lesone_esti/L2/info_373/project/Snake-Game/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/deborah/Documents/Lesona/lesona_esti/L2/info_373/project/Snake-Game/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,8 +1,8 @@
 CMakeFiles/snake_game.dir/src/food.cpp.o: \
- /home/deborah/Documents/Lesona/lesone_esti/L2/info_373/project/Snake-Game/src/food.cpp \
+ /home/deborah/Documents/Lesona/lesona_esti/L2/info_373/project/Snake-Game/src/food.cpp \
  /usr/include/stdc-predef.h \
- /home/deborah/Documents/Lesona/lesone_esti/L2/info_373/project/Snake-Game/include/food.h \
- /home/deborah/Documents/Lesona/lesone_esti/L2/info_373/project/Snake-Game/include/point.h \
+ /home/deborah/Documents/Lesona/lesona_esti/L2/info_373/project/Snake-Game/include/food.h \
+ /home/deborah/Documents/Lesona/lesona_esti/L2/info_373/project/Snake-Game/include/point.h \
  /usr/include/SFML/Graphics.hpp /usr/include/SFML/Window.hpp \
  /usr/include/SFML/System.hpp /usr/include/SFML/Config.hpp \
  /usr/include/SFML/System/Clock.hpp /usr/include/SFML/System/Export.hpp \

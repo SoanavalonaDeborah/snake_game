@@ -1,3 +1,3 @@
-/home/deborah/Documents/Lesona/lesone_esti/L2/info_373/project/Snake-Game/build/CMakeFiles/snake_game.dir
-/home/deborah/Documents/Lesona/lesone_esti/L2/info_373/project/Snake-Game/build/CMakeFiles/edit_cache.dir
-/home/deborah/Documents/Lesona/lesone_esti/L2/info_373/project/Snake-Game/build/CMakeFiles/rebuild_cache.dir
+/home/deborah/Documents/Lesona/lesona_esti/L2/info_373/project/Snake-Game/build/CMakeFiles/snake_game.dir
+/home/deborah/Documents/Lesona/lesona_esti/L2/info_373/project/Snake-Game/build/CMakeFiles/edit_cache.dir
+/home/deborah/Documents/Lesona/lesona_esti/L2/info_373/project/Snake-Game/build/CMakeFiles/rebuild_cache.dir

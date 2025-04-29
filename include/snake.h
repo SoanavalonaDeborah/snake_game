@@ -1,24 +1,35 @@
-#ifndef SNAKE_H
-#define SNAKE_H
+#pragma once
+
+#include "point.h"
+#include <vector>
+#include <SFML/Graphics.hpp>
+#include <SFML/Graphics.hpp>
 
 
-class snake
-{
+
+enum class Direction { Up, Down, Left, Right };
+
+class Snake {
 public:
-    int length = 2;
-    int px = 100, py = 100;
+    Snake(int gridSize, int startX, int startY);
+    
+    void move();
+    void changeDirection(Direction newDirection);
+    void grow();
+    bool checkSelfCollision() const;
+    void draw(sf::RenderWindow& window);
+    Point getHeadPosition() const;
+    bool eats(const Point& foodPosition) const;
+    void reset();
 
-    void draw()
-    {
-        for(int i = 0; i<=length; i++)
-        {
-        setfillstyle(1, 6);
-        bar(px, py, px + grid, py + grid);
-        }
-    }
+private:
+    std::vector<Point> body;
+    Direction direction;
+    Direction nextDirection;
+    int gridSize;
+    sf::Texture texture;
+    sf::Sprite sprite;
 
-
-
+    // Ajoute `mutable` ici :
+    mutable sf::RectangleShape shape;
 };
-
-#endif // SNAKE_H

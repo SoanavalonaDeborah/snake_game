@@ -1,3 +1,5 @@
+// Pour représenter une position (x,y)
+
 #pragma once
 
 struct Point {
@@ -10,3 +12,4 @@ struct Point {
         return x == other.x && y == other.y;
     }
 };
+

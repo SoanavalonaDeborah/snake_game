@@ -3,15 +3,19 @@ project(SnakeGame)
 
 set(CMAKE_CXX_STANDARD 17)
 
-# Inclure les headers
+# Ajouter les fichiers d'en-tête
 include_directories(include)
 
-# Ajouter les fichiers source
+# Ajouter tous les fichiers .cpp dans src + main.cpp à la racine
 file(GLOB SOURCES "src/*.cpp" "main.cpp")
 
-# Exécutable
+# Créer l'exécutable
 add_executable(snake_game ${SOURCES})
 
-# Lier SFML
+# Lier les bibliothèques SFML nécessaires
 find_package(SFML 2.5 COMPONENTS graphics window system REQUIRED)
 target_link_libraries(snake_game sfml-graphics sfml-window sfml-system)
+
+# Copier le dossier assets dans le dossier build/ (important pour les ressources)
+file(COPY assets DESTINATION ${CMAKE_BINARY_DIR})
+

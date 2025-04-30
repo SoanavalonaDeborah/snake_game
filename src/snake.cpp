@@ -116,8 +116,6 @@ void Snake::draw(sf::RenderWindow& window) {
             continue;  // Passe au segment suivant
         }
         
-        
-
         window.draw(sprite);        
     }
 }
@@ -171,3 +169,4 @@ std::string Snake::getSegmentTextureName(int index) const {
     }
     return "body_vertical"; // fallback
 }
+

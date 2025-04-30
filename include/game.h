@@ -1,3 +1,5 @@
+// contrôle du déroulement global du jeu
+
 #pragma once
 
 #include <SFML/Graphics.hpp>
@@ -19,9 +21,6 @@ private:
     sf::Font font;
     sf::Text gameOverText;
 
-
-
-
     sf::RenderWindow window;
     int windowWidth;
     int windowHeight;
@@ -31,3 +30,4 @@ private:
     Snake snake;
     Food food;
 };
+

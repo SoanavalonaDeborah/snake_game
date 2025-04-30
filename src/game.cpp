@@ -12,7 +12,7 @@ Game::Game(int windowWidth, int windowHeight, int gridSize)
     std::srand(static_cast<unsigned>(std::time(nullptr)));
 
     // Initialiser la police
-    if (!font.loadFromFile("Lusitana-Regular.ttf")) {  // Assure-toi d'avoir arial.ttf dans ton dossier racine
+    if (!font.loadFromFile("assets/fonts/Lusitana-Regular.ttf")) {  // Assure-toi d'avoir arial.ttf dans ton dossier racine
         // Si la police échoue, on termine ici
         std::cerr << "Erreur lors du chargement de la police." << std::endl;
         exit(1);
@@ -123,4 +123,5 @@ void Game::run() {
         render();
     }
 }
+
 

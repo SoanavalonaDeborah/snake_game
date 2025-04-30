@@ -4,7 +4,8 @@
 #include <vector>
 #include <SFML/Graphics.hpp>
 #include <SFML/Graphics.hpp>
-
+#include <map>
+#include <string>
 
 
 enum class Direction { Up, Down, Left, Right };
@@ -27,9 +28,14 @@ private:
     Direction direction;
     Direction nextDirection;
     int gridSize;
-    sf::Texture texture;
+    
+    // ✅ Ajoutés pour gérer les sprites selon le segment
+    std::map<std::string, sf::Texture> textures;
     sf::Sprite sprite;
 
-    // Ajoute `mutable` ici :
+    // ✅ Ajoute cette méthode pour obtenir le bon nom de texture
+    std::string getSegmentTextureName(int index) const;
+
+    // Ancienne forme avec rectangle (encore utilisée si besoin)
     mutable sf::RectangleShape shape;
 };

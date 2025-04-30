@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/deborah/Documents/Lesona/lesona_esti/L2/info_373/project/Snake-Game/main.cpp" "CMakeFiles/snake_game.dir/main.cpp.o" "gcc" "CMakeFiles/snake_game.dir/main.cpp.o.d"
   "/home/deborah/Documents/Lesona/lesona_esti/L2/info_373/project/Snake-Game/src/food.cpp" "CMakeFiles/snake_game.dir/src/food.cpp.o" "gcc" "CMakeFiles/snake_game.dir/src/food.cpp.o.d"
   "/home/deborah/Documents/Lesona/lesona_esti/L2/info_373/project/Snake-Game/src/game.cpp" "CMakeFiles/snake_game.dir/src/game.cpp.o" "gcc" "CMakeFiles/snake_game.dir/src/game.cpp.o.d"
+  "/home/deborah/Documents/Lesona/lesona_esti/L2/info_373/project/Snake-Game/src/menu.cpp" "CMakeFiles/snake_game.dir/src/menu.cpp.o" "gcc" "CMakeFiles/snake_game.dir/src/menu.cpp.o.d"
   "/home/deborah/Documents/Lesona/lesona_esti/L2/info_373/project/Snake-Game/src/snake.cpp" "CMakeFiles/snake_game.dir/src/snake.cpp.o" "gcc" "CMakeFiles/snake_game.dir/src/snake.cpp.o.d"
   )
 

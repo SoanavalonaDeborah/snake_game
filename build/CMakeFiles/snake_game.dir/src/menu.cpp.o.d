@@ -1,5 +1,5 @@
-CMakeFiles/snake_game.dir/main.cpp.o: \
- /home/deborah/Documents/Lesona/lesona_esti/L2/info_373/project/Snake-Game/main.cpp \
+CMakeFiles/snake_game.dir/src/menu.cpp.o: \
+ /home/deborah/Documents/Lesona/lesona_esti/L2/info_373/project/Snake-Game/src/menu.cpp \
  /usr/include/stdc-predef.h \
  /home/deborah/Documents/Lesona/lesona_esti/L2/info_373/project/Snake-Game/include/menu.h \
  /usr/include/SFML/Graphics.hpp /usr/include/SFML/Window.hpp \
@@ -235,10 +235,4 @@ CMakeFiles/snake_game.dir/main.cpp.o: \
  /usr/include/SFML/Graphics/Glsl.hpp /usr/include/SFML/Graphics/Glsl.inl \
  /usr/include/SFML/Graphics/Sprite.hpp \
  /usr/include/SFML/Graphics/Text.hpp \
- /usr/include/SFML/Graphics/VertexBuffer.hpp \
- /home/deborah/Documents/Lesona/lesona_esti/L2/info_373/project/Snake-Game/include/game.h \
- /home/deborah/Documents/Lesona/lesona_esti/L2/info_373/project/Snake-Game/include/snake.h \
- /home/deborah/Documents/Lesona/lesona_esti/L2/info_373/project/Snake-Game/include/point.h \
- /home/deborah/Documents/Lesona/lesona_esti/L2/info_373/project/Snake-Game/include/food.h \
- /usr/include/c++/13/iostream /usr/include/c++/13/istream \
- /usr/include/c++/13/bits/istream.tcc
+ /usr/include/SFML/Graphics/VertexBuffer.hpp
